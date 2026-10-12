@@ -11,7 +11,7 @@ DATA_DIR = Path(os.getenv("DATA_DIR", ROOT_DIR / "data"))
 
 class Config:
     groq_api_key = os.getenv("GROQ_API_KEY", "")
-    groq_model = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+    groq_model = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
 
     embedding_model = os.getenv("EMBEDDING_MODEL", "Xenova/all-MiniLM-L6-v2")
 
